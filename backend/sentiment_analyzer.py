@@ -141,7 +141,7 @@ class SentimentAnalyzer:
     
     def _get_sentiment_label(self, score: float) -> str:
         """Convert numerical score to categorical label"""
-        if score >= 0.1:
+        if score >= 0.15:
             return 'positive'
         elif score <= -0.1:
             return 'negative'
