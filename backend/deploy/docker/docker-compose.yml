@@ -1,0 +1,46 @@
+services:
+  backend:
+    build:
+      context: ../../backend
+    container_name: rse-backend
+    environment:
+      - DATABASE_URL=sqlite:///rse_analytics.db
+      - JWT_SECRET_KEY=super-secret-jwt
+      - SECRET_KEY=super-secret
+      - CORS_ORIGINS=*
+      - ENABLE_MOCK_DATA=false
+    ports:
+      - "5000:5000"
+    volumes:
+      - rse_sqlite_data:/app
+
+  frontend:
+    build:
+      context: ../../frontend
+      dockerfile: Dockerfile
+    container_name: rse-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+
+  prometheus:
+    image: prom/prometheus:v2.55.0
+    container_name: rse-prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    depends_on:
+      - backend
+
+  grafana:
+    image: grafana/grafana:11.2.0
+    container_name: rse-grafana
+    ports:
+      - "3001:3000"
+    depends_on:
+      - prometheus
+
+volumes:
+  rse_sqlite_data:

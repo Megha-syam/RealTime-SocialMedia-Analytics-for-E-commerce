@@ -1,0 +1,53 @@
+id,source,author,text,created_ts,engagement_score
+1,local,alice,"Iphone 15 camera quality is excellent in daylight and low light shots.",2026-02-23T09:00:00,120
+2,local,bob,"Iphone 15 battery drains quickly during video recording sessions.",2026-02-23T09:10:00,95
+3,local,cara,"Iphone 15 feels premium and smooth while multitasking apps.",2026-02-23T09:20:00,88
+4,local,deep,"Iphone 15 heating issue appears when charging and gaming together.",2026-02-23T09:30:00,104
+5,local,ella,"Iphone 15 price is still high but resale value is good.",2026-02-23T09:40:00,77
+6,local,fred,"Iphone 15 software update improved battery optimization this week.",2026-02-23T09:50:00,66
+7,local,gina,"Iphone 15 speaker output is clear and loud for calls.",2026-02-23T10:00:00,52
+8,local,harry,"Iphone 15 charger not included feels disappointing at this price.",2026-02-23T10:10:00,81
+9,local,ivy,"Iphone 15 availability improved in local stores after weekend sale.",2026-02-23T10:20:00,49
+10,local,jack,"Iphone 15 camera stabilization makes videos look professional.",2026-02-23T10:30:00,58
+11,local,kate,"Samsung S24 display is bright and sharp outdoors.",2026-02-23T10:40:00,97
+12,local,liam,"Samsung S24 battery backup lasts full day with normal use.",2026-02-23T10:50:00,85
+13,local,mona,"Samsung S24 gets warm during long gaming sessions.",2026-02-23T11:00:00,70
+14,local,nick,"Samsung S24 camera portraits are very natural and clean.",2026-02-23T11:10:00,89
+15,local,olga,"Samsung S24 price dropped in flash sale and demand increased.",2026-02-23T11:20:00,113
+16,local,pete,"Samsung S24 charging speed feels slower than expected.",2026-02-23T11:30:00,64
+17,local,quinn,"Samsung S24 performance is stable with heavy apps and games.",2026-02-23T11:40:00,78
+18,local,rose,"Samsung S24 camera low-light quality is decent but not class-leading.",2026-02-23T11:50:00,61
+19,local,sam,"Samsung S24 software update fixed random app crash issue.",2026-02-23T12:00:00,55
+20,local,tina,"Samsung S24 design feels compact and easy to hold.",2026-02-23T12:10:00,47
+21,local,uma,"OnePlus 12 performance is very fast for gaming and productivity.",2026-02-23T12:20:00,90
+22,local,vik,"OnePlus 12 camera colors look good after latest update.",2026-02-23T12:30:00,68
+23,local,will,"OnePlus 12 battery drain is noticeable when 5G is always on.",2026-02-23T12:40:00,74
+24,local,xena,"OnePlus 12 build quality is solid and premium in hand.",2026-02-23T12:50:00,57
+25,local,yash,"OnePlus 12 pricing is competitive compared to flagship rivals.",2026-02-23T13:00:00,83
+26,local,zara,"OnePlus 12 heating issue appears during long camera recording.",2026-02-23T13:10:00,69
+27,local,adam,"OnePlus 12 charging speed is excellent and saves daily time.",2026-02-23T13:20:00,92
+28,local,bea,"OnePlus 12 speaker quality is good for media consumption.",2026-02-23T13:30:00,53
+29,local,chad,"OnePlus 12 availability is limited in some cities this week.",2026-02-23T13:40:00,46
+30,local,dina,"OnePlus 12 software feels cleaner and smoother now.",2026-02-23T13:50:00,60
+31,local,evan,"Bajaj CT 110 X ES mileage is impressive for daily commuting.",2026-02-23T14:00:00,72
+32,local,faye,"Bajaj CT 110 X ES seat comfort is decent for city rides.",2026-02-23T14:10:00,44
+33,local,gaurav,"Bajaj CT 110 X ES engine vibration is noticeable at high speed.",2026-02-23T14:20:00,51
+34,local,hema,"Bajaj CT 110 X ES maintenance cost remains affordable.",2026-02-23T14:30:00,63
+35,local,irfan,"Bajaj CT 110 X ES pickup is average but reliable in traffic.",2026-02-23T14:40:00,38
+36,local,jiya,"Bajaj CT 110 X ES availability improved at local dealerships.",2026-02-23T14:50:00,35
+37,local,karan,"Bajaj CT 110 X ES fuel efficiency dropped after long usage.",2026-02-23T15:00:00,41
+38,local,leena,"Bajaj CT 110 X ES suspension handles rough roads reasonably well.",2026-02-23T15:10:00,39
+39,local,manav,"Bajaj CT 110 X ES looks rugged and practical for village roads.",2026-02-23T15:20:00,37
+40,local,nina,"Bajaj CT 110 X ES spare parts are easy to find nearby.",2026-02-23T15:30:00,33
+41,local,om,"Iphone 15 discount offer increased interest among students.",2026-02-23T15:40:00,48
+42,local,priya,"Iphone 15 return process was quick and customer service helped.",2026-02-23T15:50:00,42
+43,local,raju,"Samsung S24 warranty support resolved my display issue quickly.",2026-02-23T16:00:00,45
+44,local,sia,"Samsung S24 stock sold out during weekend campaign.",2026-02-23T16:10:00,52
+45,local,tej,"OnePlus 12 exchange deal made final purchase decision easier.",2026-02-23T16:20:00,50
+46,local,uday,"OnePlus 12 return policy clarity improved trust before buying.",2026-02-23T16:30:00,36
+47,local,vera,"Bajaj CT 110 X ES booking waiting period reduced this month.",2026-02-23T16:40:00,31
+48,local,wasim,"Bajaj CT 110 X ES service network is strong in tier-2 towns.",2026-02-23T16:50:00,34
+49,local,xavi,"Iphone 15 delivery was delayed by three days in my region.",2026-02-23T17:00:00,43
+50,local,yara,"Samsung S24 camera focus issue appeared in low light for me.",2026-02-23T17:10:00,40
+51,local,zubair,"OnePlus 12 idle battery drain improved after patch update.",2026-02-23T17:20:00,35
+52,local,aarav,"Bajaj CT 110 X ES clutch feels stiff in heavy traffic.",2026-02-23T17:30:00,29

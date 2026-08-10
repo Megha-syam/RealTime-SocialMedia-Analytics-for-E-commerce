@@ -1,0 +1,68 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: rse-sqlite-pvc
+  namespace: rse-analytics
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rse-backend
+  namespace: rse-analytics
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rse-backend
+  template:
+    metadata:
+      labels:
+        app: rse-backend
+    spec:
+      containers:
+        - name: backend
+          image: rse-backend:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 5000
+          env:
+            - name: DATABASE_URL
+              value: sqlite:////app-data/rse_analytics.db
+            - name: JWT_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: rse-secrets
+                  key: jwt_secret
+            - name: SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: rse-secrets
+                  key: app_secret
+            - name: ENABLE_MOCK_DATA
+              value: "true"
+          volumeMounts:
+            - name: sqlite-storage
+              mountPath: /app-data
+      volumes:
+        - name: sqlite-storage
+          persistentVolumeClaim:
+            claimName: rse-sqlite-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rse-backend
+  namespace: rse-analytics
+spec:
+  selector:
+    app: rse-backend
+  ports:
+    - name: http
+      port: 5000
+      targetPort: 5000
