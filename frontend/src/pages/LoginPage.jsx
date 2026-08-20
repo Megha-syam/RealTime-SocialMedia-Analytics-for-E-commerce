@@ -35,7 +35,7 @@ export default function LoginPage() {
   return (
     <div className="app-shell" style={{ paddingTop: "4rem", maxWidth: "720px" }}>
       <section className="glass hero">
-        <h1 className="title">AI Commerce Intelligence</h1>
+        <h1 className="title">Real Time E-Commerce Intelligence</h1>
         <p className="subtitle">
           Live social media ingestion, BERT sentiment understanding, trend forecasting, and risk-aware decision analytics.
         </p>
