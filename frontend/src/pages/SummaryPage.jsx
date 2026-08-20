@@ -22,7 +22,7 @@ export default function SummaryPage() {
     <div>
       <section className="glass hero">
         <h1 className="title">AI Review Summary</h1>
-        <p className="subtitle">Condenses large social streams into executive-level insight: pros, complaints, and overall opinion.</p>
+        <p className="subtitle">Condenses large social streams into executive-level insight: pros, complaints, and overall results.</p>
       </section>
 
       <section className="glass card" style={{ marginBottom: "1rem" }}>
