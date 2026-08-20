@@ -26,7 +26,7 @@ Backend runs on `http://localhost:5000`.
 Gemini configuration (`backend/.env`):
 ```bash
 ENABLE_GEMINI=true
-GEMINI_API_KEY=your_api_key
+GEMINI_API_KEY=your_api
 GEMINI_MODEL=gemini-2.0-flash
 ```
 
