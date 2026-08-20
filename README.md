@@ -3,7 +3,7 @@
 Production-oriented full-stack platform with:
 - `Frontend`: React + Recharts + Socket.IO real-time dashboard
 - `Backend`: Flask + SQLite + JWT auth + WebSocket stream
-- `NLP`: Local fine-tuned BERT sentiment model
+- `NLP`: Fine-tuned BERT sentiment model
 - `Trend Intelligence`: Local trained LSTM forecasting model
 - `GenAI`: Gemini API for AI summary, comparison reasoning, search insight, and dashboard insight
 - `Decision Engine`: risk-based alerting and recommendation outputs
